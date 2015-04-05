@@ -45,9 +45,10 @@
             // 
             // btnSelect
             // 
-            this.btnSelect.Location = new System.Drawing.Point(292, 11);
+            this.btnSelect.Location = new System.Drawing.Point(389, 14);
+            this.btnSelect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSelect.Name = "btnSelect";
-            this.btnSelect.Size = new System.Drawing.Size(50, 23);
+            this.btnSelect.Size = new System.Drawing.Size(67, 29);
             this.btnSelect.TabIndex = 0;
             this.btnSelect.Text = "...";
             this.btnSelect.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(348, 10);
+            this.btnLoad.Location = new System.Drawing.Point(464, 12);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.Size = new System.Drawing.Size(100, 29);
             this.btnLoad.TabIndex = 1;
             this.btnLoad.Text = "加  载";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -65,9 +67,10 @@
             // 
             // btnCompressor
             // 
-            this.btnCompressor.Location = new System.Drawing.Point(429, 11);
+            this.btnCompressor.Location = new System.Drawing.Point(572, 14);
+            this.btnCompressor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCompressor.Name = "btnCompressor";
-            this.btnCompressor.Size = new System.Drawing.Size(75, 23);
+            this.btnCompressor.Size = new System.Drawing.Size(100, 29);
             this.btnCompressor.TabIndex = 2;
             this.btnCompressor.Text = "压 缩";
             this.btnCompressor.UseVisualStyleBackColor = true;
@@ -76,25 +79,28 @@
             // txtPath
             // 
             this.txtPath.Enabled = false;
-            this.txtPath.Location = new System.Drawing.Point(12, 12);
+            this.txtPath.Location = new System.Drawing.Point(16, 15);
+            this.txtPath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPath.Name = "txtPath";
-            this.txtPath.Size = new System.Drawing.Size(274, 21);
+            this.txtPath.Size = new System.Drawing.Size(364, 25);
             this.txtPath.TabIndex = 3;
             // 
             // txtInfo
             // 
             this.txtInfo.Enabled = false;
-            this.txtInfo.Location = new System.Drawing.Point(12, 39);
+            this.txtInfo.Location = new System.Drawing.Point(16, 49);
+            this.txtInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtInfo.Name = "txtInfo";
-            this.txtInfo.Size = new System.Drawing.Size(492, 21);
+            this.txtInfo.Size = new System.Drawing.Size(655, 25);
             this.txtInfo.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 360);
+            this.label1.Location = new System.Drawing.Point(13, 450);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(82, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "编码类型：";
             // 
@@ -106,18 +112,20 @@
             "ASCII",
             "Default",
             "Unicode"});
-            this.cbEncoder.Location = new System.Drawing.Point(83, 356);
+            this.cbEncoder.Location = new System.Drawing.Point(111, 445);
+            this.cbEncoder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbEncoder.Name = "cbEncoder";
-            this.cbEncoder.Size = new System.Drawing.Size(75, 20);
+            this.cbEncoder.Size = new System.Drawing.Size(99, 23);
             this.cbEncoder.TabIndex = 6;
             this.cbEncoder.Text = "UTF-8";
             // 
             // linkadmin5
             // 
             this.linkadmin5.AutoSize = true;
-            this.linkadmin5.Location = new System.Drawing.Point(367, 360);
+            this.linkadmin5.Location = new System.Drawing.Point(489, 450);
+            this.linkadmin5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkadmin5.Name = "linkadmin5";
-            this.linkadmin5.Size = new System.Drawing.Size(143, 12);
+            this.linkadmin5.Size = new System.Drawing.Size(191, 15);
             this.linkadmin5.TabIndex = 7;
             this.linkadmin5.TabStop = true;
             this.linkadmin5.Text = "http://www.tintsoft.com";
@@ -133,11 +141,12 @@
             this.ListFile.FullRowSelect = true;
             this.ListFile.GridLines = true;
             this.ListFile.HideSelection = false;
-            this.ListFile.Location = new System.Drawing.Point(12, 66);
+            this.ListFile.Location = new System.Drawing.Point(16, 82);
+            this.ListFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ListFile.MultiSelect = false;
             this.ListFile.Name = "ListFile";
             this.ListFile.ShowGroups = false;
-            this.ListFile.Size = new System.Drawing.Size(492, 284);
+            this.ListFile.Size = new System.Drawing.Size(655, 354);
             this.ListFile.TabIndex = 5;
             this.ListFile.UseCompatibleStateImageBehavior = false;
             this.ListFile.View = System.Windows.Forms.View.Details;
@@ -163,9 +172,9 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 383);
+            this.ClientSize = new System.Drawing.Size(688, 479);
             this.Controls.Add(this.ListFile);
             this.Controls.Add(this.linkadmin5);
             this.Controls.Add(this.cbEncoder);
@@ -176,6 +185,7 @@
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSelect);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Yui.Compressor -- By 天智软件";
